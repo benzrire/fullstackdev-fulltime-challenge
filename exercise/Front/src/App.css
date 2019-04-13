@@ -1,0 +1,29 @@
+.switch-wrapper {
+  position: relative;
+}
+
+.switch-wrapper > div {
+  width: 100vw;
+  position: absolute;
+}
+
+.selected {
+  border: solid 1px #17a2b8 !important;
+  border-radius: 3px !important;
+}
+
+.active {
+  border: solid 1px #17a2b8 !important;
+  background-color: #17a2b8 !important;
+}
+
+.not-allowed:hover {
+  cursor: not-allowed;
+}
+
+.allowed:hover {
+  cursor: pointer;
+  border: solid 1px #17a2b8 !important;
+  border-radius: 3px !important;
+  /* box-shadow: 0px 0px 25px #A0A0A0 !important; */
+}
